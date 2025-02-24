@@ -31,7 +31,7 @@ This project demonstrates how to integrate multiple Google Cloud services into a
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/agusain2001/audio_to_text.git
    cd audio_analysis_project
    ```
 
