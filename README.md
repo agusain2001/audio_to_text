@@ -65,7 +65,6 @@ The application will:
 
 ## File Structure
 
-    ```bash
     audio_analysis_project/
     ├── main.py                # Main entry point to coordinate the workflow
     ├── config.py              # Configuration settings (API keys, project IDs, endpoints, etc.)
@@ -73,7 +72,8 @@ The application will:
     ├── analysis.py            # Analyzes the transcript for filler words, monologues, and pace
     ├── text_generation.py     # Uses Vertex AI for text generation (summary, rewriting, keyword extraction)
     └── requirements.txt       # List of required packages
-    ```
+
+    
 ## TroubleShooting
 - **Transcription Errors**: Ensure the audio file is in the proper format (e.g., LINEAR16 encoding) and that the sample rate in audio_processor.py matches your audio file.
 - **Vertex AI Errors**: Verify that your Gemini model is deployed on Vertex AI and that the endpoint ID is correct in config.py.
