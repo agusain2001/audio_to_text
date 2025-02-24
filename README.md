@@ -73,7 +73,6 @@ The application will:
     ├── analysis.py            # Analyzes the transcript for filler words, monologues, and pace
     ├── text_generation.py     # Uses Vertex AI for text generation (summary, rewriting, keyword extraction)
     └── requirements.txt       # List of required packages
-
     ```
 ## TroubleShooting
 - **Transcription Errors**: Ensure the audio file is in the proper format (e.g., LINEAR16 encoding) and that the sample rate in audio_processor.py matches your audio file.
